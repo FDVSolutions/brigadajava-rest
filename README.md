@@ -28,9 +28,11 @@ Rest Skeleton is a Web App based on maven
 
 -> test using rest plugin
 
-	Type:			rest service witho auth
-	Method:		GET
+	You can install under chrome, POSTMAN extension via chrome web store and import the file called "fdv.json.postman_collection"
+	in the root path of this project, or use the following connection string.
+
+	Type:			rest service with auth
+	Method:			GET
 	URL: 			http://localhost:8080/RestSkeleton/user-service/userscount
 	Headers:		AUTHORIZATION_PROPERTY 	Authorization
 					AUTHENTICATION_SCHEME 	Basic
-
